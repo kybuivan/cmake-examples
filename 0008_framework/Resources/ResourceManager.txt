@@ -1,0 +1,75 @@
+#HeightMap:
+FILE ../Resources/Models/heightmap.raw
+
+#Model: 6
+ID 0
+FILE ../Resources/Models/Woman1.nfg
+ID 1
+FILE ../Resources/Models/Woman2.nfg
+ID 2
+FILE ../Resources/Models/SkyBox.nfg
+ID 3
+FILE ../Resources/Models/Terrain.nfg
+ID 4
+FILE ../Resources/Models/fire.nfg
+ID 5
+FILE ../Resources/Models/Bila.nfg
+
+#2D Texture: 11
+ID 0
+FILE ../Resources/Textures/Woman1.tga
+ID 1
+FILE ../Resources/Textures/Woman2.tga
+ID 2
+FILE ../Resources/Textures/Grass.tga
+ID 3
+FILE ../Resources/Textures/Rock.tga
+ID 4
+FILE ../Resources/Textures/Dirt.tga
+ID 5
+FILE ../Resources/Textures/Terrain_blend_map.tga
+ID 6
+FILE ../Resources/Textures/fire3.tga
+ID 7
+FILE ../Resources/Textures/DisplacementMap.tga
+ID 8
+FILE ../Resources/Textures/fire_mask.tga
+ID 9
+FILE ../Resources/Textures/Orange.tga
+ID 10
+FILE ../Resources/Textures/NormalMap.tga
+
+#Cube Textures: 2
+ID 0
+FILE ../Resources/Textures/envMap.tga
+
+#Shader: 8
+ID 0
+VS ../Resources/Shaders/TriangleShaderVS.vs
+FS ../Resources/Shaders/TriangleShaderFS.fs
+ID 1
+VS ../Resources/Shaders/SkyBoxVS.vs
+FS ../Resources/Shaders/SkyBoxFS.fs
+ID 2
+VS ../Resources/Shaders/TriangleGridVS.vs
+FS ../Resources/Shaders/TriangleGridFS.fs
+ID 3
+VS ../Resources/Shaders/FireVS.vs
+FS ../Resources/Shaders/FireFS.fs
+ID 4
+VS ../Resources/Shaders/ReflectionVS.vs
+FS ../Resources/Shaders/ReflectionFS.fs
+ID 5
+VS ../Resources/Shaders/PhongLightVS.vs
+FS ../Resources/Shaders/PhongLightFS.fs
+ID 6
+VS ../Resources/Shaders/NormalMappingVS.vs
+FS ../Resources/Shaders/NormalMappingFS.fs
+ID 7
+VS ../Resources/Shaders/LightVS.vs
+FS ../Resources/Shaders/LightFS.fs
+
+#Light: 1
+ID 0
+POS 2.0 3.0 0.0
+COLOR 1.0 1.0 1.0

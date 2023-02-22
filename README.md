@@ -1,2 +1,2 @@
-# cmake-mfc
- Build MFC applications with cmake
+# cmake-examples
+ Build an applications with cmake
